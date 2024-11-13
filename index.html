@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+     <!-- Favicons -->
+     <link href="assets/ani/favicon.png" rel="icon">
+     <link href="assets/ani/appleicon.png" rel="apple-touch-icon">
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+    <!-- Icons Used  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- Css Of the Page  -->
+    <link rel="stylesheet" href="assets/cns/style.css">
+</head>
+
+<body>
+
+    <!-- Win Box Container -->
+    <div class="winContainer winvisibility">
+        <div class="winPopup">
+            <h1 class="winmsg"></h1>
+            <button class="newgame" onclick="clickAudio()">New Game <i class="ri-gamepad-fill"></i></button>
+        </div>
+    </div>
+
+    <main class="mainBody">
+        <!-- Heading -->
+        <div class="myHeading">
+            <div class="h1">
+                <h1>Tic Tac T<i class="ri-game-fill"></i>e</h1>
+            </div>
+            <div class="h2">
+                <h2>- Sparkling Ways -</h2>
+            </div>
+        </div>
+
+        <!-- Tic Tac Toe Container -->
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+
+        <!-- Game Reset Button -->
+        <div class="resetgame">
+            <button id="reset-btn" onclick="clickAudio()">Reset <i class="ri-refresh-fill"></i></button>
+        </div>
+
+        <!-- Footer - Dev Credits & Accounts -->
+        <div class="footer">
+            <div class="devcredits">
+                <div class="devname">
+                    <h3>Made by CURIOUS</h3>
+                </div>
+                <div class="devsocials" onclick="clickAudio()">
+                    <a href="https://www.instagram.com/curioushiva/" target="_blank"><i
+                            class="ri-instagram-fill"></i></a>
+                    <a href="https://github.com/curioushiva" target="_blank"><i class="ri-github-fill"></i></a>
+                    <a href="https://buymeacoffee.com/curioushiva/" target="_blank"><i class=" ri-drinks-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- JavaScript For The Game -->
+    <script src="assets/cns/main.js"></script>
+</body>
+
+</html>
