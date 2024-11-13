@@ -14,4 +14,5 @@ You can access the game [Curiosity - Tic Tac Toe ](https://www.curiosityplay.in/
   \
   \
 (Feel free to explore the code and contribute!)
+  \
 _Thank you for visiting the page. Have a great day ahead :)_
