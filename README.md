@@ -8,9 +8,10 @@ This is one of my frontend projects where I’ve used:
 - CSS
 - Javascript
 
-## Website 
+## Game Link
 
 You can access the game [Curiosity - Tic Tac Toe ](https://www.curiosityplay.in/tictactoe) from here 
   \
   \
+(Feel free to explore the code and contribute!)
 _Thank you for visiting the page. Have a great day ahead :)_
