@@ -10,7 +10,7 @@ This is one of my frontend projects where I’ve used:
 
 ## Game Link
 
-You can access the game [Curiosity - Tic Tac Toe ](https://www.curiosityplay.in/tictactoe) from here 
+You can access the game [Tic Tac Toe ](https://mycuriosity.netlify.app/tictactoe/) from here 
   \
   \
 (Feel free to explore the code and contribute!)
